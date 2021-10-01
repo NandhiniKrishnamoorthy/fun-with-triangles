@@ -65,6 +65,20 @@ body {
     padding: 1rem;
 }
 
+.question-container {
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 1px 25px #E5E7EB;
+    border-radius: 0.5rem;
+}
+
+.quiz-form {
+    max-width: 650px;
+    margin: auto;
+}
+
+
 input {
     font-size: 14px;
     outline: #fff;
@@ -103,12 +117,13 @@ label {
 
 /*footer*/
 .footer-brand {
+    color: black;
     font-size: medium;
     text-align: center;
 }
 
 .footer-background {
-    background-color: var(--primary-color);
+    color:black;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     color: white;

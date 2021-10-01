@@ -1,0 +1,11 @@
+﻿label {
+    font-size: 1rem;
+}
+
+input {
+    width: 8%;
+    margin: 0;
+    padding-right: 0;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
