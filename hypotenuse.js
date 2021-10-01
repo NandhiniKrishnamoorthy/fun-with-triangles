@@ -8,7 +8,7 @@ calculateButton.addEventListener("click", function calculateHypotenuse() {
     var sideB_value = sideB.value;
     if (sideA_value && sideB_value) {
         if (sideA_value > 0 && sideB_value > 0) {
-            var hypotenuse = (sideA_value ** 2 + sideB_value ** 2) * 0.5;
+            var hypotenuse = Math.sqrt(sideA_value ** 2 + sideB_value ** 2);
             outputMessage.innerText = "Hypotenuse value is " + hypotenuse.toFixed(2);
         }
         else {
