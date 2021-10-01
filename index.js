@@ -12,12 +12,17 @@ isTriangle.addEventListener("click", function check() {
     var angle3Value = Number(angle3.value);
 
     if (angle1Value && angle2Value && angle3Value) {
-        var sum = angle1Value + angle2Value + angle3Value;
-        if (sum === 180) {
-            showMessage("Success! these angles form a triangle!");
+        if (angle1Value > 0 && angle2Value > 0 && angle3Value > 0) {
+            var sum = angle1Value + angle2Value + angle3Value;
+            if (sum === 180) {
+                showMessage("Success! these angles form a triangle!");
+            }
+            else {
+                showMessage("Failed! these angles don't form a triangle!");
+            }
         }
         else {
-            showMessage("Failed! these angles don't form a triangle!");
+            showMessage("Please enter positive values");
         }
     }
     else {
