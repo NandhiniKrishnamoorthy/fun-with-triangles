@@ -1,0 +1,132 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+:root {
+    --primary-color: #60A5FA;
+    --dark-gray: #6b7280;
+    --section-primary-color: #F3F4F6;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/**List**/
+.nav-background .list-nonbullet {
+    list-style: none;
+    padding-inline-start: 0px;
+    text-align: right;
+    margin: auto;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/**Navigation**/
+.nav-background {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin: auto;
+    max-width: 900px;
+}
+
+.nav-brand {
+    font-weight: bold;
+}
+
+/*Link*/
+.link {
+    text-decoration: none;
+    padding: 0rem 0.5rem;
+    color: white;
+    margin: auto;
+}
+
+.nav-background .active-link {
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    padding-top: 1rem;
+    margin: auto;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+.container {
+    text-align: center;
+    padding: 1rem;
+}
+
+input {
+    font-size: 14px;
+    outline: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 258px;
+    text-align: center;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#check-button {
+    background: var(--primary-color);
+    border: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+}
+
+#error-message {
+    display: block;
+    font-size: larger;
+    margin: 2rem 0 1rem 0;
+}
+
+/*footer*/
+.footer-brand {
+    font-size: medium;
+    text-align: center;
+}
+
+.footer-background {
+    background-color: var(--primary-color);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: white;
+    padding: 0.5rem;
+    margin: auto;
+    max-width: 900px;
+}
+
+    .footer-background .list {
+        list-style: none;
+        padding-inline-start: 0px;
+        text-align: center;
+    }
+
+    .footer-background .link-active {
+        font-weight: bold;
+    }
+
+.footer-icon {
+    width: 2rem;
+}
